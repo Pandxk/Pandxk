@@ -1,0 +1,42 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="streakTitle">
+  <title id="streakTitle">Racha y Contribuciones de Andres (Pandxk)</title>
+  <style>
+    .num { font: 700 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ff79c6; }
+    .num-center { font: 700 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8be9fd; }
+    .label { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ff79c6; }
+    .label-center { font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8be9fd; }
+    .date { font: 400 11.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8f8f2; opacity: 0.85; }
+  </style>
+  <rect x="0.5" y="0.5" rx="10" height="99%" width="494" fill="#282a36" stroke="#44475a" stroke-opacity="0.6"/>
+
+  <!-- Dividers -->
+  <line x1="165" y1="28" x2="165" y2="167" stroke="#6272a4" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="330" y1="28" x2="330" y2="167" stroke="#6272a4" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- Left: Total Contributions -->
+  <g transform="translate(82.5, 0)">
+    <text x="0" y="76" text-anchor="middle" class="num">233</text>
+    <text x="0" y="108" text-anchor="middle" class="label">Total Contributions</text>
+    <text x="0" y="134" text-anchor="middle" class="date">Nov 10, 2025 - Present</text>
+  </g>
+
+  <!-- Center: Current Streak -->
+  <g transform="translate(247.5, 0)">
+    <circle cx="0" cy="70" r="38" stroke="#ff79c6" stroke-width="4.5" fill="none"/>
+    <!-- Flame icon at top of ring -->
+    <g transform="translate(-10, 17)">
+      <circle cx="10" cy="12" r="11" fill="#282a36"/>
+      <path d="M10 2C10 2 5 7.2 5 11.5C5 14.5 7.2 17 10 17C12.8 17 15 14.5 15 11.5C15 9.8 14.1 8.1 13 6.8C12.8 8.3 11.8 9.2 11 9.2C10.1 9.2 9.8 7.8 10.4 5.5C10.7 4.3 10 2 10 2Z" fill="#ff79c6"/>
+    </g>
+    <text x="0" y="80" text-anchor="middle" class="num-center">1</text>
+    <text x="0" y="132" text-anchor="middle" class="label-center">Current Streak</text>
+    <text x="0" y="154" text-anchor="middle" class="date">Nov 6</text>
+  </g>
+
+  <!-- Right: Longest Streak -->
+  <g transform="translate(412.5, 0)">
+    <text x="0" y="76" text-anchor="middle" class="num">6</text>
+    <text x="0" y="108" text-anchor="middle" class="label">Longest Streak</text>
+    <text x="0" y="134" text-anchor="middle" class="date">Aug 31 - Sep 4</text>
+  </g>
+</svg>
