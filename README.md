@@ -6,15 +6,17 @@
   </a>
 </p>
 
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=Pandxk&label=Visitas+al+Perfil&color=0047AB&style=flat-square" alt="Visitas al Perfil" /> 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Pandxk&label=Visitas+al+Perfil&color=0047AB&style=flat-square" alt="Visitas al Perfil" />
 </p>
 
 ---
 
 ## 👨‍💻 Sobre mí
 
-<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width="300px"></picture>
+<picture>
+  <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width="300px">
+</picture>
 
 <br>
 
@@ -65,6 +67,12 @@
 ---
 
 ## 📊 Estadísticas de GitHub
+
+<p align="center">
+  <a href="https://github.com/Pandxk">
+    <img src="https://github-readme-stats.vercel.app/api?username=Pandxk&show_icons=true&theme=dracula&hide_border=true&count_private=true" alt="Estadísticas de Pandxk" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/Pandxk">
