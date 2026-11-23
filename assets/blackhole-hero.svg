@@ -1,0 +1,246 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Andres (Pandxk) — Universo de Código</title>
+  <desc id="heroDesc">Banner estilo galaxia y agujero negro para el perfil de GitHub de Andres (Pandxk)</desc>
+  <defs>
+    <linearGradient id="spaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03020a"/>
+      <stop offset="45%" stop-color="#09051a"/>
+      <stop offset="100%" stop-color="#040817"/>
+    </linearGradient>
+
+    <linearGradient id="frameBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fb8500" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <radialGradient id="nebulaViolet" cx="22%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#3c096c" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#03020a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="nebulaCyan" cx="15%" cy="88%" r="48%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#0369a1" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#03020a" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="bhHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb8500" stop-opacity="0.45"/>
+      <stop offset="35%" stop-color="#f72585" stop-opacity="0.25"/>
+      <stop offset="65%" stop-color="#7b2cbf" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#03020a" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb703"/>
+      <stop offset="50%" stop-color="#ff4ecd"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="lensingTop" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.1"/>
+      <stop offset="25%" stop-color="#ff6b35" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#fff4d6" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#ffb703" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="lensingBottom" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.05"/>
+      <stop offset="30%" stop-color="#f72585" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#ffd166" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#fb8500" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="accretionDisk" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.08"/>
+      <stop offset="18%" stop-color="#f72585" stop-opacity="0.75"/>
+      <stop offset="38%" stop-color="#fb8500" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#fff8e7" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#ffb703" stop-opacity="0.95"/>
+      <stop offset="84%" stop-color="#9d4edd" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <linearGradient id="photonRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4d6"/>
+      <stop offset="35%" stop-color="#fb8500"/>
+      <stop offset="70%" stop-color="#f72585"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <linearGradient id="jetGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#c77dff" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="65%" stop-color="#c77dff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="intenseGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="1198" height="358" rx="18"/>
+    </clipPath>
+
+    <style>
+      .twinkle-a { animation: pulseA 3.6s ease-in-out infinite; }
+      .twinkle-b { animation: pulseB 4.8s ease-in-out infinite; }
+      .twinkle-c { animation: pulseC 6.0s ease-in-out infinite; }
+      .disk-flow { animation: flowDisk 10s linear infinite; }
+      .disk-flow-rev { animation: flowDiskRev 14s linear infinite; }
+      .orbit-dot { animation: orbitPulse 4s ease-in-out infinite; }
+      @keyframes pulseA { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+      @keyframes pulseB { 0%,100% { opacity: 0.9; } 50% { opacity: 0.25; } }
+      @keyframes pulseC { 0%,100% { opacity: 0.25; } 50% { opacity: 0.85; } }
+      @keyframes flowDisk { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -120; } }
+      @keyframes flowDiskRev { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 120; } }
+      @keyframes orbitPulse { 0%,100% { opacity: 0.7; } 50% { opacity: 1; } }
+      .badge-txt { font: 600 11.5px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; letter-spacing: 1.6px; fill: #e9d5ff; }
+      .title-txt { font: 800 46px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #f8fafc; }
+      .handle-txt { font: 700 18px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; fill: #c77dff; }
+      .role-txt { font: 500 18px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #cbd5e1; }
+      .desc-txt { font: 400 15px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #94a3b8; }
+      .pill-txt { font: 600 12.5px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #e2e8f0; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Deep Space Base & Nebulae -->
+    <rect width="1200" height="360" fill="url(#spaceBg)"/>
+    <rect width="1200" height="360" fill="url(#nebulaViolet)"/>
+    <rect width="1200" height="360" fill="url(#nebulaCyan)"/>
+
+    <!-- Subtle Cosmic Grid Arcs -->
+    <g opacity="0.12" stroke="#9d4edd" stroke-width="0.8" fill="none">
+      <circle cx="930" cy="180" r="240" stroke-dasharray="4 8"/>
+      <circle cx="930" cy="180" r="320" stroke-dasharray="2 10"/>
+      <circle cx="930" cy="180" r="410" stroke-dasharray="3 12"/>
+    </g>
+
+    <!-- Starfield -->
+    <g class="twinkle-a" fill="#ffffff">
+      <circle cx="52" cy="42" r="1.3"/><circle cx="145" cy="96" r="1.0"/><circle cx="240" cy="34" r="1.5"/>
+      <circle cx="388" cy="74" r="1.1"/><circle cx="510" cy="44" r="1.4"/><circle cx="635" cy="88" r="1.0"/>
+      <circle cx="715" cy="36" r="1.6"/><circle cx="810" cy="60" r="1.1"/><circle cx="1085" cy="44" r="1.5"/>
+      <circle cx="1152" cy="98" r="1.2"/><circle cx="1120" cy="295" r="1.4"/><circle cx="670" cy="312" r="1.3"/>
+      <circle cx="445" cy="330" r="1.1"/><circle cx="195" cy="318" r="1.4"/><circle cx="75" cy="292" r="1.0"/>
+    </g>
+    <g class="twinkle-b" fill="#bae6fd">
+      <circle cx="98" cy="175" r="1.1"/><circle cx="315" cy="120" r="0.9"/><circle cx="465" cy="148" r="1.2"/>
+      <circle cx="580" cy="210" r="1.0"/><circle cx="690" cy="155" r="1.3"/><circle cx="760" cy="265" r="1.1"/>
+      <circle cx="1040" cy="310" r="1.2"/><circle cx="1165" cy="215" r="1.4"/><circle cx="885" cy="325" r="1.0"/>
+      <circle cx="530" cy="298" r="1.2"/><circle cx="310" cy="336" r="1.3"/>
+    </g>
+    <g class="twinkle-c" fill="#f5d0fe">
+      <circle cx="178" cy="52" r="1.1"/><circle cx="420" cy="24" r="1.3"/><circle cx="605" cy="48" r="1.0"/>
+      <circle cx="745" cy="110" r="1.2"/><circle cx="1025" cy="68" r="1.1"/><circle cx="1142" cy="146" r="1.0"/>
+      <circle cx="1062" cy="252" r="1.3"/><circle cx="792" cy="306" r="1.1"/><circle cx="622" cy="272" r="1.0"/>
+    </g>
+    <!-- 4-point Sparkle Stars -->
+    <g fill="#fde68a" opacity="0.9">
+      <path d="M675 62 L677 69 L684 71 L677 73 L675 80 L673 73 L666 71 L673 69 Z"/>
+      <path d="M1125 65 L1126.5 70 L1131.5 71.5 L1126.5 73 L1125 78 L1123.5 73 L1118.5 71.5 L1123.5 70 Z"/>
+      <path d="M740 288 L741.5 293 L746.5 294.5 L741.5 296 L740 301 L738.5 296 L733.5 294.5 L738.5 293 Z" fill="#38bdf8"/>
+    </g>
+
+    <!-- SUPERMASSIVE BLACK HOLE (Gargantua Style) -->
+    <g transform="translate(930, 180)">
+      <!-- Ambient Gravitational Glow -->
+      <circle cx="0" cy="0" r="185" fill="url(#bhHalo)"/>
+
+      <!-- Subtle Relativistic Polar Jets -->
+      <g transform="rotate(-14)">
+        <ellipse cx="0" cy="0" rx="14" ry="155" fill="url(#jetGrad)" opacity="0.65"/>
+      </g>
+
+      <!-- Back Half of Tilted Accretion Disk -->
+      <g transform="rotate(-14)">
+        <path d="M -215 0 A 215 48 0 0 1 215 0" stroke="url(#accretionDisk)" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.45" filter="url(#softGlow)"/>
+        <path d="M -185 0 A 185 38 0 0 1 185 0" stroke="url(#accretionDisk)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6"/>
+      </g>
+
+      <!-- Upper Gravitational Lensing Photon Arch (Warped Back Light) -->
+      <path d="M -132 10 C -100 -108, 100 -108, 132 10" stroke="url(#lensingTop)" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.72" filter="url(#intenseGlow)"/>
+      <path d="M -104 6 C -76 -84, 76 -84, 104 6" stroke="url(#lensingTop)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.95"/>
+      <path d="M -78 2 C -55 -66, 55 -66, 78 2" stroke="#fff7ed" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.85"/>
+
+      <!-- Lower Gravitational Lensing Mirror Arch -->
+      <path d="M -108 12 C -74 88, 74 88, 108 12" stroke="url(#lensingBottom)" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.65" filter="url(#softGlow)"/>
+      <path d="M -82 8 C -56 68, 56 68, 82 8" stroke="#ffd166" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+      <!-- Event Horizon Core (Singularity) -->
+      <circle cx="0" cy="0" r="61" stroke="url(#photonRing)" stroke-width="4.5" fill="none" opacity="0.85" filter="url(#softGlow)"/>
+      <circle cx="0" cy="0" r="58" fill="#000000"/>
+      <circle cx="0" cy="0" r="58.2" stroke="#fff4d6" stroke-width="1.2" fill="none" opacity="0.85"/>
+
+      <!-- Front Half of Accretion Disk (Sweeping Across the Event Horizon) -->
+      <g transform="rotate(-14)">
+        <path d="M -225 0 A 225 52 0 0 0 225 0" stroke="url(#accretionDisk)" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.55" filter="url(#intenseGlow)"/>
+        <path d="M -212 0 A 212 46 0 0 0 212 0" stroke="url(#accretionDisk)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.95"/>
+        <path d="M -182 0 A 182 36 0 0 0 182 0" stroke="#fff8e7" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.92"/>
+        <!-- Animated Plasma Streams -->
+        <path class="disk-flow" d="M -198 0 A 198 42 0 0 0 198 0" stroke="#ffd166" stroke-width="2" stroke-dasharray="28 18 10 22" stroke-linecap="round" fill="none" opacity="0.85"/>
+        <path class="disk-flow-rev" d="M -155 0 A 155 30 0 0 0 155 0" stroke="#38bdf8" stroke-width="1.6" stroke-dasharray="16 24 8 18" stroke-linecap="round" fill="none" opacity="0.75"/>
+      </g>
+
+      <!-- Orbiting Cosmic Particles -->
+      <g class="orbit-dot">
+        <circle cx="-165" cy="48" r="2.6" fill="#ffd166"/>
+        <circle cx="172" cy="-34" r="2.2" fill="#38bdf8"/>
+        <circle cx="118" cy="54" r="2.0" fill="#f72585"/>
+        <circle cx="-112" cy="-76" r="1.8" fill="#c77dff"/>
+      </g>
+    </g>
+
+    <!-- LEFT CONTENT: IDENTITY & ROLE -->
+    <g transform="translate(64, 52)">
+      <!-- Cosmic Pill -->
+      <rect x="0" y="0" width="352" height="28" rx="14" fill="#120b29" fill-opacity="0.85" stroke="#9d4edd" stroke-opacity="0.65" stroke-width="1.1"/>
+      <circle cx="16" cy="14" r="4" fill="#fb8500"/>
+      <text x="29" y="18.5" class="badge-txt">SINGULARIDAD DE CÓDIGO · PANDXK</text>
+
+      <!-- Main Greeting -->
+      <text x="0" y="82" class="title-txt">¡Hola! Soy <tspan fill="url(#nameGrad)">Andres</tspan></text>
+
+      <!-- Handle & Title -->
+      <text x="0" y="118" class="handle-txt">@Pandxk <tspan class="role-txt"> · Desarrollador Full-Stack &amp; Móvil</tspan></text>
+
+      <!-- Tagline -->
+      <text x="0" y="152" class="desc-txt">Automatización, bots con IA, APIs RESTful y despliegues en AWS EC2.</text>
+      <text x="0" y="174" class="desc-txt">Creando software limpio, escalable y de alto rendimiento.</text>
+
+      <!-- Verified Stack Highlight Pills -->
+      <g transform="translate(0, 206)">
+        <rect x="0" y="0" width="212" height="32" rx="8" fill="#0d0a21" stroke="#38bdf8" stroke-opacity="0.55"/>
+        <text x="14" y="20.5" class="pill-txt">⚡ TS · JS · Python · Java</text>
+
+        <rect x="224" y="0" width="168" height="32" rx="8" fill="#0d0a21" stroke="#f72585" stroke-opacity="0.55"/>
+        <text x="238" y="20.5" class="pill-txt">📱 React · Android</text>
+
+        <rect x="404" y="0" width="178" height="32" rx="8" fill="#0d0a21" stroke="#fb8500" stroke-opacity="0.55"/>
+        <text x="418" y="20.5" class="pill-txt">☁️ AWS EC2 · Docker</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Outer Glowing Frame -->
+  <rect x="1" y="1" width="1198" height="358" rx="18" stroke="url(#frameBorder)" stroke-width="1.6" fill="none"/>
+</svg>

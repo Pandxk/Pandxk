@@ -1,0 +1,86 @@
+<svg width="380" height="310" viewBox="0 0 380 310" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="coreTitle">
+  <title id="coreTitle">Núcleo Cósmico — Andres (Pandxk)</title>
+  <defs>
+    <linearGradient id="coreBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050411"/>
+      <stop offset="100%" stop-color="#0b0720"/>
+    </linearGradient>
+    <linearGradient id="coreBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#fb8500" stop-opacity="0.8"/>
+    </linearGradient>
+    <radialGradient id="miniGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb8500" stop-opacity="0.5"/>
+      <stop offset="45%" stop-color="#f72585" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#050411" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#ffb703"/>
+      <stop offset="100%" stop-color="#f72585"/>
+    </linearGradient>
+    <style>
+      .spin-slow { transform-origin: 0px 0px; animation: spinCw 16s linear infinite; }
+      .spin-rev { transform-origin: 0px 0px; animation: spinCcw 11s linear infinite; }
+      @keyframes spinCw { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes spinCcw { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      .term-title { font: 600 11px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; fill: #94a3b8; }
+      .cmd { font: 600 11.5px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; fill: #38bdf8; }
+      .key { font: 600 11.5px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; fill: #c77dff; }
+      .val { font: 500 11.5px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; fill: #f8fafc; }
+      .hi { font: 700 11.5px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; fill: #ffb703; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="378" height="308" rx="14" fill="url(#coreBg)" stroke="url(#coreBorder)" stroke-width="1.5"/>
+
+  <!-- Terminal Header Bar -->
+  <path d="M 1 15 A 14 14 0 0 1 15 1 H 365 A 14 14 0 0 1 379 15 V 34 H 1 Z" fill="#100b29"/>
+  <line x1="1" y1="34" x2="379" y2="34" stroke="#9d4edd" stroke-opacity="0.35"/>
+  <circle cx="20" cy="17.5" r="4.5" fill="#f72585"/>
+  <circle cx="35" cy="17.5" r="4.5" fill="#fb8500"/>
+  <circle cx="50" cy="17.5" r="4.5" fill="#38bdf8"/>
+  <text x="195" y="21" text-anchor="middle" class="term-title">pandxk@cosmos:~/horizonte</text>
+
+  <!-- Starlight specks -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="42" cy="64" r="1"/><circle cx="332" cy="58" r="1.2"/><circle cx="348" cy="135" r="1"/>
+    <circle cx="28" cy="148" r="1.1"/><circle cx="290" cy="68" r="0.9"/><circle cx="96" cy="54" r="1"/>
+  </g>
+
+  <!-- Mini Black Hole Orbital Telemetry -->
+  <g transform="translate(190, 112)">
+    <circle cx="0" cy="0" r="68" fill="url(#miniGlow)"/>
+
+    <!-- Orbiting Rings -->
+    <g transform="rotate(-14)">
+      <ellipse cx="0" cy="0" rx="88" ry="26" stroke="#9d4edd" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="4 4"/>
+      <ellipse cx="0" cy="0" rx="66" ry="18" stroke="url(#ringAccent)" stroke-width="2" opacity="0.85"/>
+    </g>
+    <g class="spin-slow">
+      <circle cx="84" cy="-12" r="3.5" fill="#38bdf8"/>
+      <circle cx="-80" cy="18" r="3" fill="#f72585"/>
+    </g>
+    <g class="spin-rev">
+      <circle cx="0" cy="-42" r="2.6" fill="#ffb703"/>
+    </g>
+
+    <!-- Mini Lensing & Singularity -->
+    <path d="M -42 3 C -30 -35, 30 -35, 42 3" stroke="#ffb703" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <circle cx="0" cy="0" r="23" stroke="#ff6b35" stroke-width="2.5" fill="none" opacity="0.85"/>
+    <circle cx="0" cy="0" r="21.5" fill="#000000" stroke="#fff4d6" stroke-width="0.9"/>
+    <g transform="rotate(-14)">
+      <path d="M -58 0 A 58 14 0 0 0 58 0" stroke="#ffb703" stroke-width="3.2" stroke-linecap="round" fill="none" opacity="0.95"/>
+    </g>
+  </g>
+
+  <!-- Telemetry Block -->
+  <g transform="translate(22, 194)">
+    <rect x="0" y="0" width="336" height="96" rx="10" fill="#090619" stroke="#38bdf8" stroke-opacity="0.28"/>
+    <text x="14" y="22" class="cmd">$ <tspan class="key">dev</tspan>      <tspan class="val">Andres (Pandxk)</tspan></text>
+    <text x="14" y="42" class="cmd">$ <tspan class="key">enfoque</tspan>  <tspan class="val">Full-Stack · Móvil · IA</tspan></text>
+    <text x="14" y="62" class="cmd">$ <tspan class="key">cloud</tspan>    <tspan class="val">APIs REST · AWS EC2 · Docker</tspan></text>
+    <text x="14" y="82" class="cmd">$ <tspan class="key">estado</tspan>   <tspan class="hi">✦ En órbita activa (2026)</tspan></text>
+  </g>
+</svg>

@@ -1,42 +1,74 @@
-<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="streakTitle">
-  <title id="streakTitle">Racha y Contribuciones de Andres (Pandxk)</title>
-  <style>
-    .num { font: 700 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ff79c6; }
-    .num-center { font: 700 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8be9fd; }
-    .label { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ff79c6; }
-    .label-center { font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8be9fd; }
-    .date { font: 400 11.5px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8f8f2; opacity: 0.85; }
-  </style>
-  <rect x="0.5" y="0.5" rx="10" height="99%" width="494" fill="#282a36" stroke="#44475a" stroke-opacity="0.6"/>
+<svg width="540" height="205" viewBox="0 0 540 205" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="streakTitle">
+  <title id="streakTitle">Órbita de Racha y Contribuciones de Andres (Pandxk)</title>
+  <defs>
+    <linearGradient id="stBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050411"/>
+      <stop offset="50%" stop-color="#0a061c"/>
+      <stop offset="100%" stop-color="#040917"/>
+    </linearGradient>
+    <linearGradient id="stBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb8500" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#f72585" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0.75"/>
+    </linearGradient>
+    <radialGradient id="centerAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb8500" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#f72585" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#050411" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="horizonRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4d6"/>
+      <stop offset="40%" stop-color="#fb8500"/>
+      <stop offset="80%" stop-color="#f72585"/>
+      <stop offset="100%" stop-color="#9d4edd"/>
+    </linearGradient>
+    <style>
+      .num { font: 800 30px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #f8fafc; }
+      .num-center { font: 800 30px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #fff8e7; }
+      .label { font: 600 12.5px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #c77dff; }
+      .label-center { font: 700 13.5px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #ffb703; }
+      .date { font: 500 11.5px 'Cascadia Code', 'Fira Code', ui-monospace, monospace; fill: #94a3b8; }
+    </style>
+  </defs>
 
-  <!-- Dividers -->
-  <line x1="165" y1="28" x2="165" y2="167" stroke="#6272a4" stroke-width="1.5" stroke-opacity="0.5"/>
-  <line x1="330" y1="28" x2="330" y2="167" stroke="#6272a4" stroke-width="1.5" stroke-opacity="0.5"/>
+  <rect x="1" y="1" rx="14" height="203" width="538" fill="url(#stBg)" stroke="url(#stBorder)" stroke-width="1.5"/>
 
-  <!-- Left: Total Contributions -->
-  <g transform="translate(82.5, 0)">
-    <text x="0" y="76" text-anchor="middle" class="num">233</text>
-    <text x="0" y="108" text-anchor="middle" class="label">Total Contributions</text>
-    <text x="0" y="134" text-anchor="middle" class="date">Nov 10, 2025 - Present</text>
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.55">
+    <circle cx="32" cy="24" r="1.1"/><circle cx="152" cy="22" r="1"/><circle cx="388" cy="26" r="1.2"/>
+    <circle cx="508" cy="30" r="1.1"/><circle cx="506" cy="176" r="1"/><circle cx="34" cy="178" r="1.2"/>
   </g>
 
-  <!-- Center: Current Streak -->
-  <g transform="translate(247.5, 0)">
-    <circle cx="0" cy="70" r="38" stroke="#ff79c6" stroke-width="4.5" fill="none"/>
+  <!-- Dividers -->
+  <line x1="180" y1="28" x2="180" y2="176" stroke="#9d4edd" stroke-width="1.2" stroke-opacity="0.35"/>
+  <line x1="360" y1="28" x2="360" y2="176" stroke="#9d4edd" stroke-width="1.2" stroke-opacity="0.35"/>
+
+  <!-- Left: Total Contributions -->
+  <g transform="translate(90, 0)">
+    <text x="0" y="84" text-anchor="middle" class="num">289</text>
+    <text x="0" y="116" text-anchor="middle" class="label">Total Contribuciones</text>
+    <text x="0" y="142" text-anchor="middle" class="date">Nov 2025 - Presente</text>
+  </g>
+
+  <!-- Center: Current Streak (Black Hole Horizon) -->
+  <g transform="translate(270, 0)">
+    <circle cx="0" cy="76" r="56" fill="url(#centerAura)"/>
+    <ellipse cx="0" cy="76" rx="54" ry="14" stroke="#fb8500" stroke-width="1.5" fill="none" transform="rotate(-14 0 76)" opacity="0.5"/>
+    <circle cx="0" cy="76" r="39" fill="#000000" stroke="url(#horizonRing)" stroke-width="4.5"/>
     <!-- Flame icon at top of ring -->
-    <g transform="translate(-10, 17)">
-      <circle cx="10" cy="12" r="11" fill="#282a36"/>
-      <path d="M10 2C10 2 5 7.2 5 11.5C5 14.5 7.2 17 10 17C12.8 17 15 14.5 15 11.5C15 9.8 14.1 8.1 13 6.8C12.8 8.3 11.8 9.2 11 9.2C10.1 9.2 9.8 7.8 10.4 5.5C10.7 4.3 10 2 10 2Z" fill="#ff79c6"/>
+    <g transform="translate(-10, 23)">
+      <circle cx="10" cy="12" r="11" fill="#070516"/>
+      <path d="M10 2C10 2 5 7.2 5 11.5C5 14.5 7.2 17 10 17C12.8 17 15 14.5 15 11.5C15 9.8 14.1 8.1 13 6.8C12.8 8.3 11.8 9.2 11 9.2C10.1 9.2 9.8 7.8 10.4 5.5C10.7 4.3 10 2 10 2Z" fill="#ffb703"/>
     </g>
-    <text x="0" y="80" text-anchor="middle" class="num-center">1</text>
-    <text x="0" y="132" text-anchor="middle" class="label-center">Current Streak</text>
-    <text x="0" y="154" text-anchor="middle" class="date">Nov 6</text>
+    <text x="0" y="86" text-anchor="middle" class="num-center">5</text>
+    <text x="0" y="140" text-anchor="middle" class="label-center">Racha Actual</text>
+    <text x="0" y="162" text-anchor="middle" class="date">Nov 19 - Nov 23</text>
   </g>
 
   <!-- Right: Longest Streak -->
-  <g transform="translate(412.5, 0)">
-    <text x="0" y="76" text-anchor="middle" class="num">6</text>
-    <text x="0" y="108" text-anchor="middle" class="label">Longest Streak</text>
-    <text x="0" y="134" text-anchor="middle" class="date">Aug 31 - Sep 4</text>
+  <g transform="translate(450, 0)">
+    <text x="0" y="84" text-anchor="middle" class="num">6</text>
+    <text x="0" y="116" text-anchor="middle" class="label">Racha Más Larga</text>
+    <text x="0" y="142" text-anchor="middle" class="date">Aug 10 - Aug 15</text>
   </g>
 </svg>
